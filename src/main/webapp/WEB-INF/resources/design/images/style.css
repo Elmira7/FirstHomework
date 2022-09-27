@@ -1,0 +1,18 @@
+
+body{
+    background-color: rebeccapurple;
+    color: brown;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("/img.png");
+    background-size: cover;
+}
+
+.nav_link{
+    background-color: black;
+}

@@ -1,0 +1,39 @@
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("/img.png");
+    background-size: cover;
+}
+
+/*.nav_link{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background-color:white;*/
+/*}*/
+.nav_link {
+    border-radius: 12px;
+    background-color: #ffd535;
+    border: white;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+    width: 15%;
+    margin-left: 40%;
+}
+.text{
+    color: #ffd535;
+    margin-left: 30%;
+    font: 2em Arial, sans-serif;
+    text-shadow: red 1px 1px 0, red -1px -1px 0,
+    red -1px 1px 0, red 1px -1px 0;
+
+}
